@@ -1,62 +1,29 @@
+<head>
+<link rel="stylesheet" type="text/css" href="src/views/style.css">
 <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+
 
 <!-- Slideshow HTML -->
 <div id="slideshow">
   <div id="slidesContainer">
     <div class="slide">
-		<img src="img/img_slide_01.jpg" alt="Smiley face" width="560" height="263">
+		<img src="src/images/img_slide_01.jpg" alt="Smiley face" width="560" height="263">
     </div>
     <div class="slide">
-		<img src="img/img_slide_02.jpg" alt="Smiley face">
+		<img src="src/images/img_slide_02.jpg" alt="Smiley face">
     </div>
     <div class="slide">
-		<img src="img/img_slide_03.jpg" alt="Smiley face">
+		<img src="src/images/img_slide_03.jpg" alt="Smiley face">
     </div>
     <div class="slide">
-		<img src="img/img_slide_04.jpg" alt="Smiley face">
+		<img src="src/images/img_slide_04.jpg" alt="Smiley face">
     </div>
   </div>
 </div>
 <!-- Slideshow HTML -->
 
-<style type="text/css">
-	#slideshow #slidesContainer {
-	margin:0 auto;
-	width:560px;
-	height:263px;
-	overflow:auto; /* allow scrollbar */
-	position:relative;
-}
-
-#slideshow #slidesContainer .slide {
-  margin:0 auto;
-  width:540px; /* reduce by 20 pixels to avoid horizontal scroll */
-  height:263px;
-}
-
-/** 
- * Slideshow controls style rules.
- */
-.control {
-  display:block;
-  width:39px;
-  height:263px;
-  text-indent:-10000px;
-  position:absolute;
-  cursor: pointer;
-}
-#leftControl {
-  top:0;
-  left:0;
-  background:transparent url(img/control_left.jpg) no-repeat 0 0;
-}
-#rightControl {
-  top:0;
-  right:0;
-  background:transparent url(img/control_right.jpg) no-repeat 0 0;
-}
-</style>
 
 <script>
 $(document).ready(function(){
