@@ -1,7 +1,7 @@
-<?php echo loadView('navigation/header');?>
+<?php //echo loadView('navigation/header');?>
 <body>
 	<!-- Slideshow HTffML -->
-	<?php echo loadView('navigation/tab');?>
+	<?php //echo loadView('navigation/tab');?>
 	<div id="slideshow">
 	  <div id="slidesContainer">
 	    <div class="slide">
