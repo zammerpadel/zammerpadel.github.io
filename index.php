@@ -1,24 +1,20 @@
-<head>
-<link rel="stylesheet" type="text/css" href="src/views/style.css">
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-</head>
-
-<body background="src/images/bola-red.jpg">
+<?php echo loadView('navigation/header');?>
+<body>
 	<!-- Slideshow HTffML -->
+	<?php echo loadView('navigation/tab');?>
 	<div id="slideshow">
 	  <div id="slidesContainer">
 	    <div class="slide">
-			<img src="src/images/img_slide_01.jpg" alt="Smiley face" width="560" height="263">
+			<img src="images/img_slide_01.jpg" alt="Smiley face" width="560" height="263">
 	    </div>
 	    <div class="slide">
-			<img src="src/images/img_slide_02.jpg" alt="Smiley face">
+			<img src="images/img_slide_02.jpg" alt="Smiley face">
 	    </div>
 	    <div class="slide">
-			<img src="src/images/img_slide_03.jpg" alt="Smiley face">
+			<img src="images/img_slide_03.jpg" alt="Smiley face">
 	    </div>
 	    <div class="slide">
-			<img src="src/images/img_slide_04.jpg" alt="Smiley face">
+			<img src="images/img_slide_04.jpg" alt="Smiley face">
 	    </div>
 	  </div>
 	</div>
