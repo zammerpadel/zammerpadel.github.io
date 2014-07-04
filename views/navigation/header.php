@@ -1,5 +1,9 @@
 <?php echo loadView('navigation/htmlHeader'); ?>
-<body>
-<div class="title">
-	<h1>Zammer Padel</h1>
+<div class='zammerContainer'>
+	<div class='zammerLogo'>
+		<img src="images/logo_zammer.png"></img>
+	</div>
+	<div class='zammerText'>
+		<img src="images/texto_zammer.png"></img>
+	</div>
 </div>

@@ -5,61 +5,25 @@ body{
 	margin: 0;
 }
 
+.zammerContainer{
+	margin:30px auto;
+	text-align: center;
+	cursor: pointer;
+}
 
-#slideshow{
-	width: 50%;
-	margin: 0 auto;
+.zammerConstruccion{
+	margin:50px auto;
 	text-align: center;
 }
 
-#slideshow #slidesContainer {
-	margin:0 auto;
-	width:540px;
-	height:263px;
-	overflow:auto; /* allow scrollbar */
-	position:relative;
-	display: inline-block;
+.zammerLogo{
+	display:inline-block;
 	vertical-align: middle;
 }
 
-#slideshow #slidesContainer .slide {
-  margin:0 auto;
-  width:540px; /* reduce by 20 pixels to avoid horizontal scroll */
-  height:263px;
-}
-
-/** 
- * Slideshow controls style rules.
- */
-.control {
-  display:block;
-  width:39px;
-  height:263px;
-  text-indent:-10000px;
-  position:absolute;
-  cursor: pointer;
-}
-#leftControl {
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  top:0;
-  left:0;
-  background:transparent url(../images/control_left.jpg) no-repeat 0 0;
-}
-#rightControl {
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  top:0;
-  right:0;
-  background:transparent url(../images/control_right.jpg) no-repeat 0 0;
-}
-
-.pageContainer{
-	width: 80%;
-	margin: 0 auto;
-	text-align: center;
+.zammerText{
+	display:inline-block;
+	vertical-align: middle;
 }
 
 .title{
@@ -71,17 +35,30 @@ body{
 }
 
 .tabContainer{
-	width:100%;
-	height:auto;
-	margin:20px auto;
-	text-align:center;
+	width: 100%;
+	height: auto;
+	margin: 20px auto;
+	text-align: center;
 	background-color: white;
-	padding:15px 0;
+	padding: 15px 0;
+	border-bottom: 7px solid #EA0500;
 }
 
 .tab{
-	width:100px;
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	width:140px;
 	margin:5px 0;
 	display:inline-block;
 	vertical-align: middle;
+}
+
+.tab a{
+	color:black;
+	text-decoration: none;
+}
+
+.tab a:hover{
+	color: #EA0500;
 }
