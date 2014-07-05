@@ -6,7 +6,7 @@ body{
 }
 
 .zammerContainer{
-	margin:30px auto;
+	margin:10px auto;
 	text-align: center;
 	cursor: pointer;
 }
@@ -61,4 +61,34 @@ body{
 
 .tab a:hover{
 	color: #EA0500;
+}
+
+.product{
+	display: inline-block;
+	vertical-align: middle;
+	margin:10px;
+	width: 200px;
+}
+
+.product img{
+	border-bottom: 4px solid #EA0500;
+}
+
+.productDescription{
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color: white;
+	text-align: left;
+	margin-top: 5px;
+}
+
+.productDescription p{
+	margin: 0;
+}
+
+.proshopContainer{
+	margin:30px auto;
+	text-align: center;
+	width: 60%;
 }

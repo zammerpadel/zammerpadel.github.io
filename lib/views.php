@@ -1,10 +1,10 @@
 <?php
 
 function loadView($view, $params = array()){
-	ob_start();
+	foreach ($params as $key => $value){
+		$_REQUEST[$key] = $value;
+	}
 	include(dirname(dirname(__FILE__)). "/views/" . $view . ".php");
-	$content = ob_get_clean();
-	return $content;
 }
 
 function loadTemplate($template, $title = "", $params = array()){
