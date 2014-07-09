@@ -1,4 +1,7 @@
 <?php
 echo loadView('navigation/header');
 echo loadView('navigation/tab');
-//echo loadView('proshop/index');
+
+$productManager = new Product();
+$products = $productManager->getProductsForHome();
+echo loadView('proshop/index', array("products" => $products));

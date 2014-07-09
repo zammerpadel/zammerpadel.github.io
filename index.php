@@ -1,42 +1,7 @@
 <?php
-	echo loadView('navigation/header');
-	echo loadView('navigation/tab');
-	$products = array();
-	$products[0]["name"] = "Pro Foam";
-	$products[0]["image"] = "images/producto1.jpg";
-	$products[0]["price"] = "$300";
-	$products[1]["name"] = "Pro Foam";
-	$products[1]["image"] = "images/producto2.jpg";
-	$products[1]["price"] = "$400";
-	$products[2]["name"] = "Pro Foam";
-	$products[2]["image"] = "images/producto3.jpg";
-	$products[2]["price"] = "$500";
-	$products[3]["name"] = "Pro Foam paleta con control para todos los niveles";
-	$products[3]["image"] = "images/producto1.jpg";
-	$products[3]["price"] = "$300";
-	$products[4]["name"] = "Pro Foam";
-	$products[4]["image"] = "images/producto2.jpg";
-	$products[4]["price"] = "$400";
-	$products[5]["name"] = "Pro Foam";
-	$products[5]["image"] = "images/producto3.jpg";
-	$products[5]["price"] = "$500";
-	$products[6]["name"] = "Pro Foam";
-	$products[6]["image"] = "images/producto1.jpg";
-	$products[6]["price"] = "$300";
-	$products[7]["name"] = "Pro Foam";
-	$products[7]["image"] = "images/producto2.jpg";
-	$products[7]["price"] = "$400";
-	$products[8]["name"] = "Pro Foam";
-	$products[8]["image"] = "images/producto3.jpg";
-	$products[8]["price"] = "$500";
-	$products[9]["name"] = "Pro Foam";
-	$products[9]["image"] = "images/producto1.jpg";
-	$products[9]["price"] = "$300";
-	$products[10]["name"] = "Pro Foam";
-	$products[10]["image"] = "images/producto2.jpg";
-	$products[10]["price"] = "$400";
-	$products[11]["name"] = "Pro Foam";
-	$products[11]["image"] = "images/producto3.jpg";
-	$products[11]["price"] = "$500";
-	echo loadView('proshop/index', array("products" => $products));
-?>
+echo loadView('navigation/header');
+echo loadView('navigation/tab');
+	
+$productManager = new Product();
+$products = $productManager->getProductsForHome();
+echo loadView('proshop/index', array("products" => $products));
