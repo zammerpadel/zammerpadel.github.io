@@ -1,4 +1,4 @@
 <?php
 echo loadView('navigation/header');
 echo loadView('navigation/tab');
-//echo loadView('proshop/index');
+echo loadView('nosotros/index');

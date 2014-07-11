@@ -89,16 +89,17 @@ body{
 
 .proshopContainer{
 	display:inline-block;
-	width: 60%;
+	width: 58%;
 }
 
 .banner{
 	display:inline-block;
 	vertical-align:top;
-	width:16%;
+	width:17%;
 	background: none repeat scroll 0 0 #EA0500;
 	padding: 5px;
-	border-radius: 80px 5px 80px 5px;
+	border-radius: 75px 5px 75px 5px;
+	text-shadow: 1px 1px black;
 }
 
 .banner p{
@@ -135,4 +136,55 @@ body{
 
 .right{
 	text-align:right;	
+}
+
+.nosotrosContainer{
+	width:60%;
+	margin: 0 auto;
+	background-color:white;
+}
+
+.nosotrosTextContainer{
+	width:380px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.nosotrosImageContainer{
+	width:340px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 3px solid #EA0500;
+}
+
+.nosotrosImageContainer img{
+	width:100%;
+}
+
+.nosotrosTitleContainer{
+	text-align: left;
+	padding:20px 20px 0 20px;
+}
+
+.nosotrosImage{
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(../images/pelota.png);
+	background-repeat:no-repeat;
+	width: 36px;
+	height: 36px;
+}
+
+.nosotrosTitle{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #EA0500;
+}
+
+.nosotrosContentContainer{
+	padding: 20px;
 }
