@@ -88,7 +88,51 @@ body{
 }
 
 .proshopContainer{
+	display:inline-block;
+	width: 60%;
+}
+
+.banner{
+	display:inline-block;
+	vertical-align:top;
+	width:16%;
+	background: none repeat scroll 0 0 #EA0500;
+	padding: 5px;
+	border-radius: 80px 5px 80px 5px;
+}
+
+.banner p{
+	margin:5px 0;
+	color: white;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.banner p.bannerTitle{
+	font-size: 15px;
+}
+
+.banner p.bannerSubtitle{
+	font-size: 13px;
+}
+
+.banner img{
+	width: 100%;
+}
+
+.bannerContainer{
+	min-height:50px;
+}
+
+.mainContainer{
 	margin:30px auto;
 	text-align: center;
-	width: 60%;
+}
+
+.left{
+	text-align:left;	
+}
+
+.right{
+	text-align:right;	
 }

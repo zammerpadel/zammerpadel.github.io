@@ -24,3 +24,5 @@
 		<a href="torneos.php">Torneos</a>
 	</div>
 </div>
+
+<div class="mainContainer">
