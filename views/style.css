@@ -97,6 +97,7 @@ body{
 .proshopContainer{
 	display:inline-block;
 	width: 54%;
+	padding:5px;
 }
 
 .banner{
