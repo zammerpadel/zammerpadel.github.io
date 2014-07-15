@@ -1,5 +1,5 @@
 body{
-	background-image: url(../images/fondo1.jpg);
+	background-image: url(../images/fondo.jpg);
 	background-repeat:no-repeat;
 	background-size:cover;
 	margin: 0;
@@ -21,11 +21,18 @@ body{
 	vertical-align: middle;
 }
 
+.zammerLogo img{
+	width: 150px;
+}
+
 .zammerText{
 	display:inline-block;
 	vertical-align: middle;
 }
 
+.zammerText img{
+	height: 70px;
+}
 .title{
 	width:300px;
 	height:auto;
@@ -41,7 +48,7 @@ body{
 	text-align: center;
 	background-color: white;
 	padding: 15px 0;
-	border-bottom: 7px solid #EA0500;
+	border-bottom: 7px solid #FF4500;
 }
 
 .tab{
@@ -60,7 +67,7 @@ body{
 }
 
 .tab a:hover{
-	color: #EA0500;
+	color: #FF4500;
 }
 
 .product{
@@ -71,7 +78,7 @@ body{
 }
 
 .product img{
-	border-bottom: 4px solid #EA0500;
+	border-bottom: 4px solid #FF4500;
 }
 
 .productDescription{
@@ -89,40 +96,58 @@ body{
 
 .proshopContainer{
 	display:inline-block;
-	width: 58%;
+	width: 54%;
 }
 
 .banner{
 	display:inline-block;
 	vertical-align:top;
-	width:17%;
-	background: none repeat scroll 0 0 #EA0500;
+	width:20%;
 	padding: 5px;
-	border-radius: 75px 5px 75px 5px;
-	text-shadow: 1px 1px black;
+	position: relative;
 }
 
-.banner p{
+.bannerTitle{
+	background-color: white;
+	padding: 5px;
+	border-radius: 5px 5px 0 0;
+	border-bottom: 3px solid #FF4500;
+		
+}
+
+.bannerTitle p{
+	margin: 0;
+	color: #FF4500;
+	font-weight: bold;
+	font-size: 20px;
+	font-style: italic;
+	text-shadow: 1px 1px grey;
+	text-align: left;
+}
+
+.bannerDescription p{
 	margin:5px 0;
 	color: white;
 	font-weight: bold;
-	font-size: 12px;
-}
-
-.banner p.bannerTitle{
 	font-size: 15px;
-}
-
-.banner p.bannerSubtitle{
-	font-size: 13px;
+	font-style: italic;
+	text-align:left;
 }
 
 .banner img{
-	width: 100%;
+	width: 257px;
+	height: 300px;
+	border-radius: 0 0 5px 5px;
 }
 
-.bannerContainer{
-	min-height:50px;
+.bannerDescription{
+	position: absolute;
+	bottom: 5px;
+	background-color: black;
+	opacity: 0.5;
+	width: 247px;
+	padding: 5px;
+	border-radius: 0 0 5px 5px;
 }
 
 .mainContainer{
@@ -155,7 +180,7 @@ body{
 	width:340px;
 	display: inline-block;
 	vertical-align: middle;
-	border: 3px solid #EA0500;
+	border: 3px solid #FF4500;
 }
 
 .nosotrosImageContainer img{
@@ -182,7 +207,7 @@ body{
 	margin-left: 15px;
 	font-size: 20px;
 	font-weight: bold;
-	color: #EA0500;
+	color: #FF4500;
 }
 
 .nosotrosContentContainer{
